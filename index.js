@@ -16,7 +16,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://mern-e-commerce-app.netlify.app",
     credentials: true,
   })
 );
