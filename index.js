@@ -16,7 +16,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://mern-restaurant-3hw5.onrender.com",
+    origin: ["https://mern-restaurant-3hw5.onrender.com", "http://localhost:5173"],
     credentials: true,
   })
 );
